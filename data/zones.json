@@ -1,0 +1,170 @@
+{
+  "M004": [
+    {
+      "nomZone": "VIP",
+      "capacite": 50,
+      "coefficientPrix": 3.0,
+      "billetsVendus": 1
+    },
+    {
+      "nomZone": "Tribune",
+      "capacite": 200,
+      "coefficientPrix": 1.5,
+      "billetsVendus": 0
+    },
+    {
+      "nomZone": "Populaire",
+      "capacite": 500,
+      "coefficientPrix": 1.0,
+      "billetsVendus": 5
+    }
+  ],
+  "M003": [
+    {
+      "nomZone": "VIP",
+      "capacite": 50,
+      "coefficientPrix": 3.0,
+      "billetsVendus": 3
+    },
+    {
+      "nomZone": "Tribune",
+      "capacite": 200,
+      "coefficientPrix": 1.5,
+      "billetsVendus": 4
+    },
+    {
+      "nomZone": "Populaire",
+      "capacite": 500,
+      "coefficientPrix": 1.0,
+      "billetsVendus": 0
+    }
+  ],
+  "M002": [
+    {
+      "nomZone": "VIP",
+      "capacite": 50,
+      "coefficientPrix": 3.0,
+      "billetsVendus": 1
+    },
+    {
+      "nomZone": "Tribune",
+      "capacite": 200,
+      "coefficientPrix": 1.5,
+      "billetsVendus": 3
+    },
+    {
+      "nomZone": "Populaire",
+      "capacite": 500,
+      "coefficientPrix": 1.0,
+      "billetsVendus": 4
+    }
+  ],
+  "M001": [
+    {
+      "nomZone": "VIP",
+      "capacite": 50,
+      "coefficientPrix": 3.0,
+      "billetsVendus": 3
+    },
+    {
+      "nomZone": "Tribune",
+      "capacite": 200,
+      "coefficientPrix": 1.5,
+      "billetsVendus": 0
+    },
+    {
+      "nomZone": "Populaire",
+      "capacite": 500,
+      "coefficientPrix": 1.0,
+      "billetsVendus": 1
+    }
+  ],
+  "M008": [
+    {
+      "nomZone": "VIP",
+      "capacite": 50,
+      "coefficientPrix": 3.0,
+      "billetsVendus": 2
+    },
+    {
+      "nomZone": "Tribune",
+      "capacite": 200,
+      "coefficientPrix": 1.5,
+      "billetsVendus": 0
+    },
+    {
+      "nomZone": "Populaire",
+      "capacite": 500,
+      "coefficientPrix": 1.0,
+      "billetsVendus": 2
+    }
+  ],
+  "M007": [
+    {
+      "nomZone": "VIP",
+      "capacite": 50,
+      "coefficientPrix": 3.0,
+      "billetsVendus": 0
+    },
+    {
+      "nomZone": "Tribune",
+      "capacite": 200,
+      "coefficientPrix": 1.5,
+      "billetsVendus": 3
+    },
+    {
+      "nomZone": "Populaire",
+      "capacite": 500,
+      "coefficientPrix": 1.0,
+      "billetsVendus": 0
+    }
+  ],
+  "M006": [
+    {
+      "nomZone": "VIP",
+      "capacite": 50,
+      "coefficientPrix": 3.0,
+      "billetsVendus": 0
+    },
+    {
+      "nomZone": "Tribune",
+      "capacite": 200,
+      "coefficientPrix": 1.5,
+      "billetsVendus": 0
+    },
+    {
+      "nomZone": "Populaire",
+      "capacite": 500,
+      "coefficientPrix": 1.0,
+      "billetsVendus": 4
+    }
+  ],
+  "M005": [
+    {
+      "nomZone": "VIP",
+      "capacite": 50,
+      "coefficientPrix": 3.0,
+      "billetsVendus": 1
+    },
+    {
+      "nomZone": "Tribune",
+      "capacite": 200,
+      "coefficientPrix": 1.5,
+      "billetsVendus": 5
+    },
+    {
+      "nomZone": "Populaire",
+      "capacite": 500,
+      "coefficientPrix": 1.0,
+      "billetsVendus": 0
+    }
+  ],
+  "MTEST": [
+    {
+      "nomZone": "ZoneTest",
+      "capacite": 1,
+      "coefficientPrix": 1.0,
+      "billetsVendus": 1
+    }
+  ]
+}

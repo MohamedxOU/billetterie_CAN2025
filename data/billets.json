@@ -1,0 +1,434 @@
+[
+  {
+    "codeBillet": 100,
+    "clientId": 1,
+    "codeMatch": "M001",
+    "nomZone": "Tribune",
+    "statut": "annulé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 101,
+    "clientId": 2,
+    "codeMatch": "M001",
+    "nomZone": "Tribune",
+    "statut": "annulé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 102,
+    "clientId": 3,
+    "codeMatch": "M001",
+    "nomZone": "Tribune",
+    "statut": "annulé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 103,
+    "clientId": 4,
+    "codeMatch": "M001",
+    "nomZone": "Tribune",
+    "statut": "annulé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 104,
+    "clientId": 5,
+    "codeMatch": "M001",
+    "nomZone": "Tribune",
+    "statut": "annulé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 105,
+    "clientId": 6,
+    "codeMatch": "M001",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 30000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 106,
+    "clientId": 7,
+    "codeMatch": "M001",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 30000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 107,
+    "clientId": 8,
+    "codeMatch": "M001",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 30000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 108,
+    "clientId": 9,
+    "codeMatch": "M002",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 10000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 109,
+    "clientId": 10,
+    "codeMatch": "M002",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 10000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 110,
+    "clientId": 11,
+    "codeMatch": "M002",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 10000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 111,
+    "clientId": 12,
+    "codeMatch": "M002",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 10000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 112,
+    "clientId": 13,
+    "codeMatch": "M002",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 113,
+    "clientId": 14,
+    "codeMatch": "M002",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 114,
+    "clientId": 15,
+    "codeMatch": "M002",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 115,
+    "clientId": 1,
+    "codeMatch": "M003",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 30000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 116,
+    "clientId": 2,
+    "codeMatch": "M003",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 30000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 117,
+    "clientId": 3,
+    "codeMatch": "M003",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 118,
+    "clientId": 4,
+    "codeMatch": "M003",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 119,
+    "clientId": 5,
+    "codeMatch": "M003",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 120,
+    "clientId": 6,
+    "codeMatch": "M003",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 121,
+    "clientId": 6,
+    "codeMatch": "M004",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 7500.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 122,
+    "clientId": 7,
+    "codeMatch": "M004",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 7500.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 123,
+    "clientId": 8,
+    "codeMatch": "M004",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 7500.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 124,
+    "clientId": 9,
+    "codeMatch": "M004",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 7500.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 125,
+    "clientId": 10,
+    "codeMatch": "M004",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 7500.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 126,
+    "clientId": 11,
+    "codeMatch": "M005",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 11250.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 127,
+    "clientId": 12,
+    "codeMatch": "M005",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 11250.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 128,
+    "clientId": 13,
+    "codeMatch": "M005",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 11250.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 129,
+    "clientId": 14,
+    "codeMatch": "M005",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 11250.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 130,
+    "clientId": 15,
+    "codeMatch": "M005",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 11250.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 131,
+    "clientId": 1,
+    "codeMatch": "M006",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 5000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 132,
+    "clientId": 2,
+    "codeMatch": "M006",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 5000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 133,
+    "clientId": 3,
+    "codeMatch": "M006",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 5000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 134,
+    "clientId": 4,
+    "codeMatch": "M006",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 5000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 135,
+    "clientId": 16,
+    "codeMatch": "M007",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 7500.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 136,
+    "clientId": 17,
+    "codeMatch": "M007",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 7500.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 137,
+    "clientId": 18,
+    "codeMatch": "M007",
+    "nomZone": "Tribune",
+    "statut": "payé",
+    "montant": 7500.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 138,
+    "clientId": 1,
+    "codeMatch": "M008",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 139,
+    "clientId": 2,
+    "codeMatch": "M008",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 15000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 140,
+    "clientId": 3,
+    "codeMatch": "M008",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 5000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 141,
+    "clientId": 4,
+    "codeMatch": "M008",
+    "nomZone": "Populaire",
+    "statut": "payé",
+    "montant": 5000.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 142,
+    "clientId": 21,
+    "codeMatch": "M002",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 0.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 143,
+    "clientId": 22,
+    "codeMatch": "M003",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 0.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 144,
+    "clientId": 23,
+    "codeMatch": "M004",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 0.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 145,
+    "clientId": 24,
+    "codeMatch": "M005",
+    "nomZone": "VIP",
+    "statut": "payé",
+    "montant": 0.0,
+    "dateCreation": "2026-01-16 00:11:25"
+  },
+  {
+    "codeBillet": 146,
+    "clientId": 1,
+    "codeMatch": "MTEST",
+    "nomZone": "ZoneTest",
+    "statut": "payé",
+    "montant": 5000.0,
+    "dateCreation": "2026-01-16 00:11:26"
+  },
+  {
+    "codeBillet": 147,
+    "clientId": 20,
+    "codeMatch": "M001",
+    "nomZone": "Populaire",
+    "statut": "réservé",
+    "montant": 10000.0,
+    "dateCreation": "2026-01-16 00:11:26"
+  }
+]

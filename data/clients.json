@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "nom": "Ahmed",
+    "email": "ahmed@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 2,
+    "nom": "Fatima",
+    "email": "fatima@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 3,
+    "nom": "Moussa",
+    "email": "moussa@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 4,
+    "nom": "Aminata",
+    "email": "aminata@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 5,
+    "nom": "Youssef",
+    "email": "youssef@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 6,
+    "nom": "Khadija",
+    "email": "khadija@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 7,
+    "nom": "Omar",
+    "email": "omar@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 8,
+    "nom": "Aissatou",
+    "email": "aissatou@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 9,
+    "nom": "Ibrahim",
+    "email": "ibrahim@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 10,
+    "nom": "Mariama",
+    "email": "mariama@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 11,
+    "nom": "Oumar",
+    "email": "oumar@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 12,
+    "nom": "Fatoumata",
+    "email": "fatoumata@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 13,
+    "nom": "Abdoulaye",
+    "email": "abdoulaye@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 14,
+    "nom": "Rokia",
+    "email": "rokia@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 15,
+    "nom": "Mamadou",
+    "email": "mamadou@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 16,
+    "nom": "Salimata",
+    "email": "salimata@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 17,
+    "nom": "Boubacar",
+    "email": "boubacar@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 18,
+    "nom": "Djénéba",
+    "email": "djeneba@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 19,
+    "nom": "Seydou",
+    "email": "seydou@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 20,
+    "nom": "Kadiatou",
+    "email": "kadiatou@email.com",
+    "type": "spectateur"
+  },
+  {
+    "id": 21,
+    "nom": "Jean Reporter",
+    "email": "jean@media.com",
+    "type": "media",
+    "accredite": true
+  },
+  {
+    "id": 22,
+    "nom": "Marie Journaliste",
+    "email": "marie@media.com",
+    "type": "media",
+    "accredite": true
+  },
+  {
+    "id": 23,
+    "nom": "Paul Cameraman",
+    "email": "paul@media.com",
+    "type": "media",
+    "accredite": true
+  },
+  {
+    "id": 24,
+    "nom": "Sophie Photographe",
+    "email": "sophie@media.com",
+    "type": "media",
+    "accredite": true
+  },
+  {
+    "id": 25,
+    "nom": "Marc Commentateur",
+    "email": "marc@media.com",
+    "type": "media",
+    "accredite": false
+  }
+]

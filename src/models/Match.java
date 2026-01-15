@@ -1,5 +1,8 @@
 package models;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class Match {
     private String codeMatch;
     private String equipeA;
@@ -47,6 +50,27 @@ public class Match {
         return importance;
     }
 
+    // Retourne le coefficient d'importance pour le calcul du prix
+    // 1 (faible) = 1.0, 2 (moyenne) = 1.5, 3 (élevée) = 2.0
+    public double getCoefficientImportance() {
+        switch (importance) {
+            case 1: return 1.0;
+            case 2: return 1.5;
+            case 3: return 2.0;
+            default: return 1.0;
+        }
+    }
+
+    // Retourne la date et l'heure du match sous forme de LocalDateTime
+    public LocalDateTime getDateHeure() {
+        try {
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+            return LocalDateTime.parse(date + " " + heure, formatter);
+        } catch (Exception e) {
+            return LocalDateTime.now().plusDays(30); // Par défaut, match dans 30 jours
+        }
+    }
+
     public void setImportance(int importance) {
         this.importance = importance;
     }
@@ -75,13 +99,19 @@ public class Match {
         this.codeMatch = codeMatch;
     }
 
-    
+    public String getImportanceLabel() {
+        switch (importance) {
+            case 1: return "Faible";
+            case 2: return "Moyenne";
+            case 3: return "Élevée";
+            default: return "Inconnue";
+        }
+    }
 
     @Override
     public String toString() {
-        return "\tMatch [codeMatch=" + codeMatch + ", equipeA=" + equipeA + ", equipeB=" + equipeB + ", stade=" + stade
-                + ", date=" + date + ", heure=" + heure + ", importance=" + importance + "]";
+        return "Match [code=" + codeMatch + ", " + equipeA + " vs " + equipeB + 
+               ", stade=" + stade + ", " + date + " " + heure + 
+               ", importance=" + getImportanceLabel() + "]";
     }
-
-
 }

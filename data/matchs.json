@@ -1,0 +1,83 @@
+[
+  {
+    "codeMatch": "M001",
+    "equipeA": "Maroc",
+    "equipeB": "Côte d'Ivoire",
+    "stade": "Stade Olembé",
+    "date": "15/01/2025",
+    "heure": "18:00",
+    "importance": 3
+  },
+  {
+    "codeMatch": "M002",
+    "equipeA": "Sénégal",
+    "equipeB": "Cameroun",
+    "stade": "Stade Ahmadou Ahidjo",
+    "date": "16/01/2025",
+    "heure": "20:00",
+    "importance": 3
+  },
+  {
+    "codeMatch": "M003",
+    "equipeA": "Nigeria",
+    "equipeB": "Égypte",
+    "stade": "Stade Olembé",
+    "date": "17/01/2025",
+    "heure": "18:00",
+    "importance": 3
+  },
+  {
+    "codeMatch": "M004",
+    "equipeA": "Algérie",
+    "equipeB": "Ghana",
+    "stade": "Stade de Japoma",
+    "date": "18/01/2025",
+    "heure": "16:00",
+    "importance": 2
+  },
+  {
+    "codeMatch": "M005",
+    "equipeA": "Tunisie",
+    "equipeB": "Mali",
+    "stade": "Stade Kouekong",
+    "date": "19/01/2025",
+    "heure": "18:00",
+    "importance": 2
+  },
+  {
+    "codeMatch": "M006",
+    "equipeA": "RD Congo",
+    "equipeB": "Guinée",
+    "stade": "Stade Roumdé Adjia",
+    "date": "20/01/2025",
+    "heure": "15:00",
+    "importance": 1
+  },
+  {
+    "codeMatch": "M007",
+    "equipeA": "Burkina Faso",
+    "equipeB": "Cap-Vert",
+    "stade": "Stade Olembé",
+    "date": "21/01/2025",
+    "heure": "18:00",
+    "importance": 1
+  },
+  {
+    "codeMatch": "M008",
+    "equipeA": "Afrique du Sud",
+    "equipeB": "Angola",
+    "stade": "Stade de Japoma",
+    "date": "22/01/2025",
+    "heure": "20:00",
+    "importance": 1
+  },
+  {
+    "codeMatch": "MTEST",
+    "equipeA": "Test1",
+    "equipeB": "Test2",
+    "stade": "Stade Test",
+    "date": "30/01/2025",
+    "heure": "18:00",
+    "importance": 1
+  }
+]

@@ -33,10 +33,21 @@ public abstract class Client {
         this.email = email;
     }
 
+    // Réinitialise le compteur d'ID pour les tests
+    public static void resetIdCounter() {
+        idCounter = 1;
+    }
+
+    // Retourne le prochain ID qui sera attribué
+    public static int getNextId() {
+        return idCounter;
+    }
+
     @Override
     public String toString() {
         return "Client [id=" + id + ", nom=" + nom + ", email=" + email + "]";
     }
 
+    // Retourne le pourcentage de réduction (0.0 = pas de réduction, 1.0 = 100% gratuit)
     public abstract double getReduction();
 }
