@@ -2,7 +2,6 @@ package utils;
 
 import java.io.*;
 import java.nio.file.*;
-import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
@@ -500,7 +499,6 @@ public class JsonStorage {
         if (json.startsWith("{")) json = json.substring(1);
         if (json.endsWith("}")) json = json.substring(0, json.length() - 1);
         
-        int depth = 0;
         int arrayDepth = 0;
         StringBuilder currentKey = new StringBuilder();
         StringBuilder currentArray = new StringBuilder();
