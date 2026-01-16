@@ -20,7 +20,7 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println("╔══════════════════════════════════════════════════════════════╗");
-        System.out.println("║         SYSTEME DE BILLETTERIE - CAN 2025                     ║");
+        System.out.println("║         SYSTEME DE BILLETTERIE - CAN 2025                    ║");
         System.out.println("╚══════════════════════════════════════════════════════════════╝");
         
         // Demander si l'utilisateur veut exécuter les scénarios de test
@@ -44,10 +44,10 @@ public class App {
         boolean active = true;
         
         while (active) {
-            System.out.println("\n╔══════════════════════════════════════════════════════════════╗");
-            System.out.println("║                    MENU PRINCIPAL                             ║");
-            System.out.println("╠══════════════════════════════════════════════════════════════╣");
-            System.out.println("║  1. Ajouter match / zones de places                       ║");
+            System.out.println("\n╔════════════════════════════════════════════════════════════╗");
+            System.out.println("║                    MENU PRINCIPAL                          ║");
+            System.out.println("╠════════════════════════════════════════════════════════════╣");
+            System.out.println("║  1. Ajouter match / zones de places                        ║");
             System.out.println("║  2. Ajouter client (spectateur/média)                      ║");
             System.out.println("║  3. Accréditer média                                       ║");
             System.out.println("║  4. Vendre billet                                          ║");
@@ -60,7 +60,7 @@ public class App {
             System.out.println("║ 11. Sauvegarder donnees (JSON)                             ║");
             System.out.println("║ 12. Charger donnees (JSON)                                 ║");
             System.out.println("║  0. Quitter                                                ║");
-            System.out.println("╚══════════════════════════════════════════════════════════════╝");
+            System.out.println("╚════════════════════════════════════════════════════════════╝");
             
             System.out.print("Votre choix: ");
             int choix = lireEntier();

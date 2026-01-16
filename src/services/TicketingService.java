@@ -645,7 +645,7 @@ public class TicketingService implements Reservable, Payable {
                 for (ZonePlace z : zones) {
                     String key = m.getCodeMatch() + "_" + z.getNomZone();
                     int vendus = billetsVendusParZone.getOrDefault(key, 0);
-                    System.out.println("    → " + z.getNomZone() + " (capacité: " + z.getCapacite() + 
+                    System.out.println("    " + z.getNomZone() + " (capacité: " + z.getCapacite() + 
                         ", vendus: " + vendus + ", coef: " + z.getCoefficientPrix() + ")");
                 }
             }
