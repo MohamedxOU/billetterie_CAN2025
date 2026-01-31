@@ -320,7 +320,7 @@ public class App {
         
         try {
             double remboursement = ticketingService.annulerBilletAvecValidation(codeBillet);
-            System.out.println("[OK] Billet annule. Montant rembourse: " + String.format("%.2f", remboursement) + " FCFA");
+            System.out.println("[OK] Billet annule. Montant rembourse: " + String.format("%.2f", remboursement) + " MAD");
         } catch (DonneeInvalideException e) {
             System.out.println("[ERREUR] " + e.getMessage());
         }

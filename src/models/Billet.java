@@ -69,7 +69,7 @@ public class Billet {
         return "Billet [code=" + codeBillet + ", client=" + client.getNom() + 
                ", match=" + match.getEquipeA() + " vs " + match.getEquipeB() + 
                ", zone=" + zone.getNomZone() + ", statut=" + statut + 
-               ", montant=" + String.format("%.2f", montant) + " FCFA" +
+               ", montant=" + String.format("%.2f", montant) + " MAD" +
                ", créé le " + dateCreation.format(formatter) + "]";
     }
 }

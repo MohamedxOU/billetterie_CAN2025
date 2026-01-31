@@ -29,7 +29,7 @@ import utils.JsonStorage;
 
 public class TicketingService implements Reservable, Payable {
 
-    // Prix de base pour un billet (en FCFA)
+    // Prix de base pour un billet (en MAD)
     private static final double PRIX_BASE = 5000.0;
     
     // Pénalité d'annulation si < 24h avant le match (20%)
@@ -322,7 +322,7 @@ public class TicketingService implements Reservable, Payable {
                 // Appliquer la pénalité de 20%
                 double penalite = billet.getMontant() * PENALITE_ANNULATION;
                 montantRemboursement = billet.getMontant() - penalite;
-                message = " (Pénalité 20% appliquée: -" + String.format("%.2f", penalite) + " FCFA)";
+                message = " (Pénalité 20% appliquée: -" + String.format("%.2f", penalite) + " MAD)";
             }
 
             billet.setStatut("annulé");
@@ -333,7 +333,7 @@ public class TicketingService implements Reservable, Payable {
             billetsVendusParZone.put(key, Math.max(0, vendus - 1));
 
             System.out.println("Billet " + codeBillet + " annulé. Remboursement: " + 
-                String.format("%.2f", montantRemboursement) + " FCFA" + message);
+                String.format("%.2f", montantRemboursement) + " MAD" + message);
         }
     }
 
@@ -601,14 +601,14 @@ public class TicketingService implements Reservable, Payable {
         System.out.println("  - Billets annules: " + getNombreBilletsAnnules());
         
         System.out.println("\nCHIFFRE D'AFFAIRES:");
-        System.out.println("  - CA Total: " + String.format("%,.2f", getChiffreAffairesTotal()) + " FCFA");
+        System.out.println("  - CA Total: " + String.format("%,.2f", getChiffreAffairesTotal()) + " MAD");
         
         System.out.println("\nTOP 5 MATCHS (par CA):");
         List<Map.Entry<String, Double>> topMatchs = getTopMatchs(5);
         int rang = 1;
         for (Map.Entry<String, Double> entry : topMatchs) {
             System.out.println("  " + rang + ". " + entry.getKey() + " - " + 
-                String.format("%,.2f", entry.getValue()) + " FCFA");
+                String.format("%,.2f", entry.getValue()) + " MAD");
             rang++;
         }
         
